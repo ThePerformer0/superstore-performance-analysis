@@ -1,0 +1,43 @@
+# Ignorer les fichiers et dossiers spécifiques à Python
+__pycache__/
+*.py[co]
+*.dist-info/
+*.egg-info/
+build/
+dist/
+
+# Ignorer les environnements virtuels
+# Le nom le plus courant est 'venv', mais ajoutez les noms que vous utilisez
+venv/
+.venv/
+env/
+.env/
+*/venv/
+*/.venv/
+*/env/
+*/.env/
+
+# Ignorer les fichiers des IDEs (Optional)
+.vscode/       # VS Code
+.idea/         # PyCharm/IntelliJ
+
+# Ignorer les fichiers spécifiques au système d'exploitation
+.DS_Store      # macOS
+Thumbs.db      # Windows
+*.swp          # Vim swap files
+
+# Ignorer les fichiers de données locaux si vous ne voulez pas les versionner (Optional)
+# Nous avons inclus Superstore.csv dans votre plan, donc vous pourriez ne PAS ignorer data/
+# Si vous aviez d'autres gros fichiers de données, vous pourriez faire :
+# data/
+
+# Ignorer les checkpoints Jupyter
+.ipynb_checkpoints/
+
+# Ignorer les sorties potentielles de notebooks (si vous les exportez)
+# *.html
+# *.pdf
+
+# Ignorer les fichiers de logs ou temporaires
+*.log
+*.tmp
